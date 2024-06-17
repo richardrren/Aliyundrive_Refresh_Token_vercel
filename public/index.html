@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get Aliyundrive Refresh Token</title>
+    <link rel="shortcut icon" href="//www.520yxl.cn/favicon.ico">
+    <link href="//unpkg.com/layui@2.8.6/dist/css/layui.css" rel="stylesheet">
+    <link href="//lib.baomitu.com/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="//lib.baomitu.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//lib.baomitu.com/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="//lib.baomitu.com/layer/3.5.1/layer.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//lib.baomitu.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="//lib.baomitu.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+<div class="col-xs-12 col-sm-10 col-md-8 col-lg-6 center-block" style="float: none;">
+<div class="panel panel-primary">
+    <div class="panel-heading" style="text-align: center;"><h3 class="panel-title">
+        Get Aliyundrive Refresh Token
+    </div>
+    <div class="panel-body" style="text-align: center;">
+        <div class="list-group">
+            <ul class="nav nav-tabs"></ul>
+            <div class="list-group-item"><img src="https://img.alicdn.com/imgextra/i3/O1CN01qcJZEf1VXF0KBzyNb_!!6000000002662-2-tps-384-92.png"></div>
+            <div id="load" class="alert alert-info" style="font-weight:bold;display:none;"></div>
+            <div id="login" class="list-group-item">
+                <div class="form-group qqlogin">
+                    <div class="input-group"><div class="input-group-addon">刷新令牌</div>
+                    <input type="text" id="uin" value="" class="form-control" onkeydown="if(event.keyCode==13){submit.click()}"/>
+                </div></div>
+                </div>
+                <a href="/authorize"><button type="button" id="submit" class="btn btn-primary btn-block">点击跳转阿里云盘授权登陆</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>

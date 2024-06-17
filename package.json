@@ -1,0 +1,15 @@
+{
+  "name": "aliyundrive-oauth",
+  "version": "1.0.0",
+  "description": "A simple application for Aliyundrive OAuth",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "chatgpt",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "express": "^4.18.2"
+  }
+}
