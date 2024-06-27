@@ -5,8 +5,8 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
-const client_id = '123456789'; // 阿里云盘开发者应用ID
-const client_secret = '123456789'; // 阿里云盘开发者应用密钥
+const client_id = '1867ed09d9cf4426b08cffc21c5425a8'; // 阿里云盘开发者应用ID
+const client_secret = '6d0c0ea8c00b4b79a7b570e3a8312cbb'; // 阿里云盘开发者应用密钥
 
 app.disable('x-powered-by');
 
